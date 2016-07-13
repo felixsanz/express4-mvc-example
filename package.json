@@ -1,0 +1,27 @@
+{
+  "name": "express4-mvc-example",
+  "version": "0.1.0",
+  "description": "An example of MVC pattern implemented in Express 4.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felixsanz/express4-mvc-example.git"
+  },
+  "author": "Félix Sanz <me@felixsanz.com> (https://www.felixsanz.com)",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "errorhandler": "^1.4.3",
+    "express": ">=4.0",
+    "glob": "^7.0.5",
+    "method-override": "^2.3.6",
+    "mongoose": "^4.5.4",
+    "morgan": "^1.7.0",
+    "pug": "^2.0.0-beta3",
+    "serve-favicon": "^2.3.0"
+  }
+}
